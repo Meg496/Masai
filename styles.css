@@ -1,0 +1,158 @@
+body {
+    font-family: 'Poppins 900', sans-serif;
+}
+
+a {
+    text-decoration: none ! important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Domine', serif;
+}
+
+/* head start*/
+.section-heading {
+    color: var(--bs-orange);
+
+}
+
+
+/* Navbar */
+.nav {
+    background-color: #444 ! important;
+    box-shadow: 1px 1px 2px #444;
+}
+
+nav .navbar-brand {
+    color: var(--bs-orange) ! important;
+    font-size: 30px !important;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    padding: 15px 15px;
+
+}
+
+.navbar-toggler {
+    box-shadow: none ! important;
+    
+}
+
+/*carousel*/
+.carousel-inner .carousel-item {
+    width: 100%;
+    min-height: 5oovh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+
+.carousel-inner .carousel-item::before {
+    content: '';
+    background-color: rgba(12, 11, 10, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* correction to be done here later*/
+.carousel-inner .carousel-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: o;
+    top: 39%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.carousel-inner .carousel-caption h2 span {
+    color: var(--bs-orange);
+}
+
+.carousel-inner .carousel-caption h2 {
+    color: #ffff;
+    font-size: 45px;
+    font-weight: 600;
+    width: 80%;
+    margin: 0 auto 10px auto;
+}
+
+.carousel-inner .carousel-caption p {
+    font-size: 15px;
+    width: 80%;
+    margin: 0 auto 20px auto;
+}
+
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-caption h2 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 577px) {
+    .carousel-inner .carousel-caption h2 {
+        font-size: 25px;
+    }
+
+    .carousel-inner .carousel-caption p {
+        font-size: 13px;
+    }
+}
+
+/*Course*/
+.academic .box {
+    padding: 10px 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+
+}
+ 
+/*Read.html*/
+h1 {
+    background-color: #46B5D1;
+    text-align: center;
+    padding: 10% 7% 10%;
+    
+}
+
+.text-mission {
+  font-size: large;
+}
+
+.armsy {
+    width: 30%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/**Footer**/
+
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #fff;
+
+}
+
+ .social-icon {
+    margin: 20px 10px;
+ }
+
+
+ /*Courses.html*/
+ .academy {
+    background-color: var(--bs-gray-100);
+    text-align: center;
+    padding: 10% 7% 10%;
+
+ }
+
+  
